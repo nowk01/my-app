@@ -1,5 +1,9 @@
 config/
 
+# config 자바 파일 제외
+!com/sp/app/config/
+!com/sp/app/config/**
+
 HELP.md
 .gradle
 build/
